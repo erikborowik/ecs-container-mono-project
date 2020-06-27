@@ -1,5 +1,5 @@
-REGION=$1
-STACK_NAME=$2
+REGION=us-east-1
+STACK_NAME=ecs-mono
 
 DEPLOYABLE_SERVICES=(api);
 
