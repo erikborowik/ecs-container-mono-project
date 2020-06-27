@@ -10,6 +10,7 @@ phases:
       - npm -v
   build:
     commands:
+      - ./deploy.sh us-east-1 ecs-mono
       - echo "teste" >> elb.txt
   post_build:
     commands:
