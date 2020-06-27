@@ -1,7 +1,9 @@
-REGION=us-east-1
-STACK_NAME=ecs-mono
+REGION=$1
+STACK_NAME=$2
 
-DEPLOYABLE_SERVICES=(api);
+DEPLOYABLE_SERVICES=(
+	api
+);
 
 PRIMARY='\033[0;34m'
 NC='\033[0m' # No Color
