@@ -11,9 +11,9 @@ phases:
   build:
     commands:
       - echo "teste" >> elb.txt
-   post_build:
+  post_build:
     commands:
       - echo "DONE!!!!"
 artifacts:
- files: 
-   - elb.txt
+  files: 
+    - elb.txt
