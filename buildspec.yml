@@ -10,7 +10,6 @@ version: 0.2
      - npm -v
  build:
      commands:
-     - ./deploy.sh
      - echo "teste" >> elb.txt
  post_build:
      commands:
